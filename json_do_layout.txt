@@ -1,0 +1,75 @@
+{
+  "nomeDoProjeto": "UP_Dashboard_Premium",
+  "estiloVisual": "Card-Based UI (Ilhas de Informação)",
+  
+  "paletaDeCores": {
+    "oceano": {
+      "descricao": "O fundo de toda a tela. Não é branco, é um cinza azulado muito claro que descansa os olhos.",
+      "hex": "#E8ECEF"
+    },
+    "verdeSidebar": {
+      "descricao": "O verde escuro elegante do menu lateral e dos painéis de destaque.",
+      "hex": "#3A4F49"
+    },
+    "amareloMostarda": {
+      "descricao": "A cor de ação. Chama a atenção para botões, ícones e metas batidas.",
+      "hex": "#CFA03E"
+    },
+    "brancoIlha": {
+      "descricao": "O fundo dos cartões de informação (as ilhas).",
+      "hex": "#FFFFFF"
+    },
+    "texto": {
+      "principal": "#2D3748", 
+      "secundario": "#A0AEC0",
+      "contraste": "#FFFFFF"
+    }
+  },
+
+  "tipografia_e_bordas": {
+    "fonte": "'Roboto', sans-serif (pesos: Regular, Medium, Bold)",
+    "arredondamentoCards": "24px (Border-radius bem suave)",
+    "sombraCards": "0px 10px 30px rgba(0, 0, 0, 0.05) (Sombra difusa e elegante)"
+  },
+
+  "arquitetura_adaptada_uniformes_parana": {
+    "bloco1_MenuLateral": {
+      "fundo": "verdeSidebar",
+      "elementos": [
+        "Avatar e nome do usuário (Leandro)",
+        "Links de navegação",
+        "Destaque: O link ativo ('Dashboard') ganha um fundo branco que vaza para o oceano"
+      ]
+    },
+    
+    "bloco2_FiltrosGlobais": {
+      "formato": "Formato de pílula (bordas 100% redondas)",
+      "elementos": [
+        "Filtro de Setor (Costura/Corte)",
+        "Filtro de Data",
+        "Botão de Buscar (amareloMostarda)"
+      ]
+    },
+
+    "bloco3_Kpis_Topo": {
+      "estilo": "Cards menores misturando verdeSidebar e amareloMostarda",
+      "dados": [
+        "Total Produzido (Mês)",
+        "Custo / Desperdício",
+        "Taxa de Eficiência"
+      ]
+    },
+
+    "bloco4_Listagem_Ranking": {
+      "estilo": "Card grande brancoIlha",
+      "adaptacao": "Substituir os voos pela Tabela de Desempenho da Equipe (Costureiras).",
+      "detalheVisual": "Cada funcionário é separado por uma linha tracejada muito fina e sutil."
+    },
+
+    "bloco5_Graficos": {
+      "estilo": "Cards brancos com gráficos limpos",
+      "adaptacao_1": "Gráfico de Rosca (Donut) mostrando a Divisão de Produtos (Calças vs Camisas).",
+      "adaptacao_2": "Gráfico de Barras com as pontas arredondadas (mesmo estilo do design de referência)."
+    }
+  }
+}

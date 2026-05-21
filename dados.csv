@@ -1,0 +1,11 @@
+ID_Producao,Data,Funcionario,Setor,Produto,Quantidade_Produzida,Meta_Diaria,Pecas_Com_Defeito
+1001,18/05/2026,Daniel Celestino,Costura,Camisa Polo,42,40,0
+1002,18/05/2026,Marta Martinelli,Corte,Calça Brim,55,60,2
+1003,18/05/2026,Cristiane Beatriz,Costura,Avental,45,50,1
+1004,19/05/2026,Roberto Silva,Embalagem,Camisa Polo,120,100,0
+1005,19/05/2026,Ana Souza,Costura,Jaqueta,15,20,3
+1006,19/05/2026,Daniel Celestino,Costura,Camisa Polo,38,40,1
+1007,20/05/2026,Marta Martinelli,Corte,Calça Brim,62,60,0
+1008,20/05/2026,Cristiane Beatriz,Costura,Avental,51,50,0
+1009,20/05/2026,João Pedro,Tapeçaria,Assento,10,15,2
+1010,20/05/2026,Roberto Silva,Embalagem,Avental,95,100,0
